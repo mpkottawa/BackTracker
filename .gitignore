@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.exe
+*.log
+.backing-tracks-state.json
