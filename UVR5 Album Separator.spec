@@ -23,6 +23,7 @@ exe = EXE(
     a.datas,
     [],
     name='UVR5 Album Separator',
+    icon='backtrack.ico',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

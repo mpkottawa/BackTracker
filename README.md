@@ -1,5 +1,9 @@
 # BackTracker
 
+<p align="center">
+  <img src="backtrack-logo.png" alt="BackTracker logo" width="360">
+</p>
+
 BackTracker is a two-step Windows tool for turning songs or albums into guitar-free backing
 tracks. First it uses Ultimate Vocal Remover (UVR5) to create individual stem files. Then it uses
 Audacity to mix bass, drums, and vocals into finished backing tracks while retaining guitar and

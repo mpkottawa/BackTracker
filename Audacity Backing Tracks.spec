@@ -23,6 +23,7 @@ exe = EXE(
     a.datas,
     [],
     name='Audacity Backing Tracks',
+    icon='backtrack.ico',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
