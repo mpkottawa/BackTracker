@@ -5,7 +5,7 @@ a = Analysis(
     ['uvr5_gui.pyw'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('run_uvr_album.ps1', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

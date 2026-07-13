@@ -11,7 +11,8 @@ from tkinter import filedialog, messagebox, ttk
 
 
 DEFAULT_OUTPUT = Path(os.environ.get("BACKTRACKER_ROOT", Path.home() / "BackTracker")) / "processing"
-HELPER = (Path(sys.executable) if getattr(sys, "frozen", False) else Path(__file__)).with_name("run_uvr_album.ps1")
+APP_ROOT = Path(getattr(sys, "_MEIPASS", Path(__file__).parent))
+HELPER = APP_ROOT / "run_uvr_album.ps1"
 AUDIO_EXTENSIONS = {".mp3", ".wav", ".flac", ".m4a", ".aac", ".ogg", ".wma", ".aiff", ".aif"}
 
 

@@ -5,3 +5,12 @@ dist/
 *.exe
 *.log
 .backing-tracks-state.json
+
+# Private/legacy workflow launchers are not part of the public two-step release.
+Make Backing Tracks.cmd
+Overnight Backing Track Processor.spec
+Process New Albums.cmd
+Scan Albums.cmd
+mix_split_tracks.py
+overnight_backing_gui.pyw
+run_audioslave_after_current.ps1

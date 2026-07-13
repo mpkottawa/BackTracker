@@ -24,15 +24,14 @@ needed when building from source.
 
 ## Download and folder setup
 
-Download both release files into the same folder:
+Download the two release files:
 
 - `UVR5 Album Separator.exe`
 - `Audacity Backing Tracks.exe`
-- `run_uvr_album.ps1`
 
-Keep `run_uvr_album.ps1` beside `UVR5 Album Separator.exe`; the separator needs it to control UVR.
-Create folders anywhere you like for original audio, separated stems, and finished tracks. The
-apps default to `%USERPROFILE%\BackTracker`, but every folder can be selected in the interface.
+The UVR automation helper is included inside the separator application. Create folders anywhere
+you like for original audio, separated stems, and finished tracks. The apps default to
+`%USERPROFILE%\BackTracker`, but every folder can be selected in the interface.
 
 If UVR or Audacity is installed somewhere unusual, set its path before starting the apps:
 
